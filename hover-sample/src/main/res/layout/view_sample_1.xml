@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.mattcarroll.hover.HoverView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.recyclerview.widget.RecyclerView
+        tools:listitem="@layout/item_sample_1"
+        android:paddingVertical="12dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</io.mattcarroll.hover.HoverView>
